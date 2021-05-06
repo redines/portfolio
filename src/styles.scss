@@ -1,6 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
+//CSS RESET
 * {
     padding: 0;
     margin: 0;
+}
+
+//LAYOUT
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.left-navbar{
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
